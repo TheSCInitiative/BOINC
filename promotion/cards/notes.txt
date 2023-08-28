@@ -1,4 +1,0 @@
-Approved: 
-RakeSearch: "latin" -> "Latin" and 
-SiDock@home: "Sars-CoV-2" -> "SARS-CoV-2".
-Denis@home
