@@ -6013,6 +6013,10 @@ Note: input and output wrappers have "display: block" propery in print mode.
 | CodeCell
 |----------------------------------------------------------------------------*/
 
+.jp-CodeCell > .jp-Cell-inputWrapper {
+  display: none;
+}
+
 /*-----------------------------------------------------------------------------
 | MarkdownCell
 |----------------------------------------------------------------------------*/
@@ -7892,7 +7896,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="BOINC-Impact">BOINC Impact<a class="anchor-link" href="#BOINC-Impact">¶</a></h1><p>I decided to switch things up a bit this time when it came to the question of impact. This time we asked about impact from a global perspective and then an individual perspective. This gets us a better view of the core principle of BOINC and distributed computing in general, which is a small impact multiplied thousands of times makes a huge impact.</p>
-<p>We can see from the results that people's perceptions align exactly with this principle as respondents generally selected a higher score for global impact versus a lower score for their individual impact.</p>
+<p>Although it may look a little grim, we can see from the results that people's perceptions align exactly with this principle as respondents generally selected a higher score for global impact versus a lower score for their individual impact.</p>
 </div>
 </div>
 </div>
@@ -7943,7 +7947,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Let's see how people contribute to BOINC outside of crunching alone.</p>
-<p>Keep in mind that this shows the % or responses, not respondents (as this is a multiple-choice question).</p>
+<p>Keep in mind that this shows the % of responses, not respondents (as this is a multiple-choice question).</p>
 <p>I'm genuinely surprised how many people contribute to BOINC outside of crunching. Nearly 50% of responses came back with contributing to BOINC in some way or another outside of crunching.</p>
 <p>We also had some custom responses flowing in, many of them are with regards to forum helping, moderation, spreading the word of BOINC and what it does, running competitions and one person even mentioning that they created a podcast about it!</p>
 </div>
@@ -8208,7 +8212,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>We asked people again if they ever wanted to start a BOINC project and what's holding them back from doing so.</p>
-<p>This is the first time that 'Money' and 'Idea too small' has appeared here. Read this as you will, but to me this seems like people are looking at BOINC as a behemoth rather than a system where you can plug and play.</p>
+<p>This is the first time that 'Money' and 'Idea too small' has appeared here. Read this as you will, but to me this seems like people are looking at BOINC as an expensive behemoth or monolith rather than a system where you can plug and play small projects or computing needs.</p>
 </div>
 </div>
 </div>
@@ -8317,8 +8321,6 @@ a.anchor-link {
 <p>We asked this question last census with the purpose of being able to share what other distributed computing networks exist out there outside of BOINC.</p>
 <p>The results this year are mostly the same apart from one new network to be added to our little list below!</p>
 <ul>
-<li><a href="https://distributed.net/">distributed.net</a></li>
-<li><a href="https://www.mersenne.org/">GIMPS/Prime95</a></li>
 <li><a href="https://www.sheepit-renderfarm.com/home">SheepIt</a></li>
 <li><a href="https://github.com/learning-at-home">Learning@home</a></li>
 <li><a href="https://shoggoth.network/explorer">Shoggoth</a></li>
@@ -8399,6 +8401,7 @@ a.anchor-link {
 <li><strong>BOINC teams and leaderboards work</strong> in getting people to crunch more but we can do more to improve it.</li>
 <li>Creating a BOINC project is percieved as an <strong>expensive and time consuming undertaking</strong> whereas demand for this sort of service now has turned to much smaller, ad-hoc projects.</li>
 <li>Two thirds of respondents said that they <strong>will run BOINC more if they were paid for it</strong></li>
+<li>There are a lot of opportunities and demand to <strong>publicise BOINC</strong>, but is this actually the right approach for getting the community going again?</li>
 </ul>
 <h2 id="Improvements-for-next-Census">Improvements for next Census<a class="anchor-link" href="#Improvements-for-next-Census">¶</a></h2><p>Based on producing this and also the feedback from the census, here are the things I will be considering for the 2024 BOINC Census:</p>
 <ul>
